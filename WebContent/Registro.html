@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cadastro de Usuários</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+  </head>
+   
+    <body>
+
+      <h1 text-align:"Center">Cadastro de Usuários</h1>
+      <form action="RegistraDados.jsp">
+	    <table width="35%" border="0">		
+	      <tr>
+	    	<td width="13%"><label for="nome">Nome:</label></td>
+        	<td width="87%"><input type="text" name="nome" id="nome"/></td>
+          </tr>
+		  <tr>
+	    	<td><label for="sobrenome">Sobrenome:</label></td>
+        	<td><input type="text" name="sobrenome" id="sobrenome"/></td>
+          </tr>
+		  <tr>
+	    	<td><label for="usuario">Usuário:</label></td>
+        	<td><input type="text" name="usuario" id="usuario"/></td>
+          </tr>
+		  <tr>
+	    	<td><label for="senha">Senha:</label></td>
+        	<td><input type="text" name="senha" id="senha"/></td>
+          </tr>
+		  <tr>
+	    	<td><label for="pais">Países:</label></td>
+        	<td><select name="pais" id="pais">
+            	<option value="1">Brasil</option>
+           		<option value="2">EUA</option>
+            	<option value="3">Russia</option>
+            	<option value="4">Espanha</option>
+            	<option value="5">Portugal</option>
+            	<option value="6">Italia</option>
+          		</select>
+          	</td>
+          </tr>
+		  <tr>
+	    	<td>Tecnologias</td>
+        	<td><label><input type="radio" name="area" value="exatas" id="area1" checked>Exatas</label><br>
+                <label><input type="radio" name="area" value="humanas" id="area2">Humanas</label><br>
+       			<label><input type="radio" name="area" value="Biológicas" id="area3">Biológicas</label><br>
+       			<label><input type="radio" name="area" value="Linguas" id="area4">Linguas</label><br>
+       	    </td>
+       	  </tr>  
+       	  <tr>
+       	  <td colspan="2" align="center"><input type="submit" name="button" id="button" value="Enviar"/>
+       	  </td>
+       	  </tr>
+       	  		
+       </table>
+        </form>
+
+      <a href="menu.html">Voltar</a>
+
+      </body>
+    </body>
+
+
+</html>
